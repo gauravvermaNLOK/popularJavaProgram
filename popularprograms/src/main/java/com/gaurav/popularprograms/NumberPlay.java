@@ -29,6 +29,7 @@ public class NumberPlay {
 		1*1*1*1 + 6*6*6*6 + 3*3*3*3 + 4*4*4*4 = 1634
 		
 	 * @param number
+	 * @return boolean
 	 */
 	public boolean isArmstrongNumber(int number)
 	{
@@ -66,6 +67,7 @@ public class NumberPlay {
 		Output: Reverse of n = 1234561111111111654321
 		Palindrome : Yes
 	 * @param number
+	 * return boolean
 	 */
 	public boolean isPalindromNumber(long number)
 	{
@@ -109,6 +111,7 @@ public class NumberPlay {
 		Input: n = 20
 		Output: False
 	 * @param number
+	 * return boolean
 	 */
 	public   boolean isHappyNumber(int number)
 	{

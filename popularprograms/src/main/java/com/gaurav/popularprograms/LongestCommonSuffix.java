@@ -10,7 +10,7 @@ public class LongestCommonSuffix {
 	 * Input :  {"Car", "RaceCar", "Bike"}
 	 * Output: Zero length String i.e. ""
 	 * @param arr
-	 * @return
+	 * @return String
 	 */
 	public String getLongestCommonSuffix(String [] arr)
 	{

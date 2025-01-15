@@ -17,6 +17,7 @@ public class ArrayPlay {
 		Input : arr[] = {4, 5, 7, 3, 10, 1} 
 		Output : sum[] = {26, 25, 23, 27, 20, 29}  
 	 * @param arr : Integer[]
+	 * @return Integer[]
 	 */
 	public Integer[] arraySum(Integer[] arr)
 	{
@@ -54,6 +55,9 @@ public class ArrayPlay {
 	
 	Input: S = 5, arr[] = {1, 3, 2, 5, 8} 
 	Output: 1 
+	 * @param arr Integer[]
+	 * @param expectedSum int
+	 * @return int
 	 */
 	public int arrayManipulationAndSum(Integer[] arr, int expectedSum)
 	{

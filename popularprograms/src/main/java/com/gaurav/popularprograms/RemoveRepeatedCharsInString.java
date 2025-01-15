@@ -8,10 +8,11 @@ public class RemoveRepeatedCharsInString {
 	
 	
 	/**
+	 * getCharacterCount
 	 * Input - "AABBCCD"
 	 * Output - A-2, B-2, C-2, D-1
-	 * @param str
-	 * @return
+	 * @param String
+	 * @return LinkedHashMap<String, Integer>
 	 */
 	public  LinkedHashMap<String, Integer> getCharacterCount(String str)
 	{
@@ -32,10 +33,11 @@ public class RemoveRepeatedCharsInString {
 	
 	
 	/**
+	 * removeDuplicateChar
 	 * Input - AABBccd
 	 * output - ABcd
-	 * @param str
-	 * @return
+	 * @param String
+	 * @return String
 	 */
 	public String removeDuplicateChar(String str)
 	{

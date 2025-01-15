@@ -4,7 +4,7 @@ public class LongestCommonPrefix {
 	
 	
 	/**
-	 * Input: arr[] = [“geeksforgeeks”, “geeks”, “geek”, “geezer”]
+	 * 	Input: arr[] = [“geeksforgeeks”, “geeks”, “geek”, “geezer”]
 		Output: “gee”
 		Explanation: “gee” is the longest common prefix in all the given strings: “geeksforgeeks”, “geeks”, “geeks” and “geezer”.
 		
@@ -15,7 +15,9 @@ public class LongestCommonPrefix {
 		Input: arr[] = [“hello”, “world”]
 		Output: “”
 		Explanation: There’s no common prefix in the given strings.
-	 **/
+	 * @param arr String[]
+	 * @return String
+	 */
 	public String getLongestCommonPrefix(String [] arr)
 	{
 		int len = arr.length;

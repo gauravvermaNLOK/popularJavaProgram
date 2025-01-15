@@ -21,6 +21,7 @@ public class LongestCommonSubSequence {
 	of the remaining characters.
 	 * @param str1
 	 * @param str2
+	 * return String
 	 */
 	public String getLongestCommonSubsequence(String str1, String str2)
 	{
@@ -41,6 +42,7 @@ public class LongestCommonSubSequence {
 	/**
 	 * Sub sequences of ABC shall be [, A, AB, BC, B, AC, ABC, C]
 	 * @param str
+	 * @return Set<String>
 	 */
 	private Set<String> getAllSubSequences(String str)
 	{
